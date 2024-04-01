@@ -1,0 +1,13 @@
+
+body{
+    background-color: #000;
+}
+.container{
+    width: 74%;
+    height: 600px;
+    background-color: rgba(255, 0, 0, 0);
+    position: absolute;
+    left: 320px;
+    top: 100px;
+
+}

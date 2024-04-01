@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box1 .fa-bell{
+    color: #FFE605;
+}
+.box1 .fa-user{
+    color: #00FFF5;
+}
+
+
+header{
+    background-color: #202020;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    width: 100%;
+    height: 100px;
+    
+}
+header h2{
+    color: aliceblue;
+    font-size: 24px;
+    margin:0px 50px;
+}
+header li{
+    list-style: none;
+    padding: 18px 15px;
+    border-radius: 24px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+    
+}
+header .box li a i{
+    margin: 0px 8px;
+}
+header .box a{
+    margin: 0px 15px;
+    color: #B0B0B0;
+    font-size: 15px;
+}
+header .box a i{
+    font-size: 18px;
+}
+header a{
+    text-decoration: none;
+}
+header .box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+header .box1 a{
+    padding: 18px 21px;
+    background-color: #2F2F2F;
+    border-radius: 100%;
+}
+header .box1 a i{
+    color: #fff;
+}
+
+.active{
+    background-color:black;
+    border-top:2px #00FFF5 solid;
+    
+}
+header .active a{
+    color:#ffff;
+}
+header .active a i{
+    color:#00FFF5;
+}
+
